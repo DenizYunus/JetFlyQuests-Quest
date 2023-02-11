@@ -3,10 +3,9 @@ using UnityEngine.Events;
 
 public class GameObjectButtonAction : MonoBehaviour
 {
-    public UnityEvent action;
-
-    public void DestroyThisAction()
-    {
-        Destroy(gameObject);
-    }
+    [Header("Hover Action")]
+    public UnityEvent onHoverEnterAction;
+    public UnityEvent onHoverExitAction;
+    [Header("Click Action")]
+    public UnityEvent clickAction;
 }

@@ -284,6 +284,10 @@ struct VignetteComponent_t5DEB727DEF64DF8A892E38D35DC74D11D20F179E;
 struct VignetteModel_t5B17502416386FC05514A65E5747805E060AB82B;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// UnityEngine.PostProcessing.BloomModel/BloomSettings
+struct BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565;
+// UnityEngine.PostProcessing.BloomModel/LensDirtSettings
+struct LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352;
 // UnityEngine.PostProcessing.BuiltinDebugViewsComponent/ArrowArray
 struct ArrowArray_t4B6DF1636A03CE3943C78A690F45CFD893E6E279;
 // UnityEngine.Camera/CameraCallback
@@ -435,6 +439,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* PostProcessingBehaviour_TryPrepareUberImage
 IL2CPP_EXTERN_C const RuntimeMethod* PostProcessingComponent_1_get_model_mBEA24B401D5E0A26F20E142C858179EE1EED7809_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderTextureFactory_Release_m4FF49FACF9B6D2FA8979008615146B06EA13FDE8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_m1FCC35EE61F42931C5182FBEF07E09C077B499E0_RuntimeMethod_var;
+struct BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565;;
+struct BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_com;
+struct BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_com;;
+struct BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_pinvoke;
+struct BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_pinvoke;;
 struct CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C;;
 struct CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshaled_com;
 struct CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshaled_com;;
@@ -444,6 +453,11 @@ struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
+struct LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352;;
+struct LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com;
+struct LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com;;
+struct LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke;
+struct LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke;;
 struct ReflectionSettings_t71D055296B1C4B5C94332F7F95E41462ACF97993;;
 struct ReflectionSettings_t71D055296B1C4B5C94332F7F95E41462ACF97993_marshaled_com;
 struct ReflectionSettings_t71D055296B1C4B5C94332F7F95E41462ACF97993_marshaled_com;;
@@ -2973,6 +2987,18 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 	}
 };
 
+IL2CPP_EXTERN_C void BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshal_pinvoke(const BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565& unmarshaled, BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshal_pinvoke_back(const BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_pinvoke& marshaled, BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565& unmarshaled);
+IL2CPP_EXTERN_C void BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshal_pinvoke_cleanup(BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_pinvoke(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_pinvoke_back(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke& marshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled);
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_pinvoke_cleanup(LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshal_com(const BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565& unmarshaled, BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshal_com_back(const BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_com& marshaled, BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565& unmarshaled);
+IL2CPP_EXTERN_C void BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshal_com_cleanup(BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_com(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_com_back(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com& marshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled);
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_com_cleanup(LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com& marshaled);
 IL2CPP_EXTERN_C void CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshal_pinvoke(const CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C& unmarshaled, CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshaled_pinvoke& marshaled);
 IL2CPP_EXTERN_C void CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshal_pinvoke_back(const CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshaled_pinvoke& marshaled, CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C& unmarshaled);
 IL2CPP_EXTERN_C void CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshal_pinvoke_cleanup(CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C_marshaled_pinvoke& marshaled);
@@ -3083,6 +3109,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m27565F5ACCCC75C3DD3
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::Clear()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1_Clear_m75A6528F0B47448EB3B3A05EC379260E9BDFC2DD_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
 
+// UnityEngine.PostProcessing.BloomModel/BloomSettings UnityEngine.PostProcessing.BloomModel/BloomSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565 BloomSettings_get_defaultSettings_mF699CA18C8EE4915A822315A4CD6E4B2238A6250 (const RuntimeMethod* method) ;
+// UnityEngine.PostProcessing.BloomModel/LensDirtSettings UnityEngine.PostProcessing.BloomModel/LensDirtSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352 LensDirtSettings_get_defaultSettings_mE6627CFD4601CEC07A6E19EB983B1658765012EA (const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.PostProcessing.BuiltinDebugViewsModel::IsModeActive(UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, int32_t ___mode0, const RuntimeMethod* method) ;
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 Settings_get_defaultSettings_mD853190F5084F5CBC9897591C4FFAEA00B4E7530 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.PostProcessing.BuiltinDebugViewsModel::set_settings(UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BuiltinDebugViewsModel_set_settings_mCE85C1766578019B7EFE79454FF90E2DD46204B6_inline (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.PostProcessing.PostProcessingModel::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostProcessingModel__ctor_m36CB4F260149E7413032B9AE04B44763053955B7 (PostProcessingModel_tBE2F41CB927C52A0AF9B2923D105090662060136* __this, const RuntimeMethod* method) ;
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/DepthSettings UnityEngine.PostProcessing.BuiltinDebugViewsModel/DepthSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DepthSettings_tA25D895ABFCD7C1A3FF2BA72A3CB533C3D289087 DepthSettings_get_defaultSettings_mAB71E11F64F854A72A82A713490ED4CE8431CABB (const RuntimeMethod* method) ;
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/MotionVectorsSettings UnityEngine.PostProcessing.BuiltinDebugViewsModel/MotionVectorsSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MotionVectorsSettings_t51256203CEB23749A0835F0C5A8308D858C8488E MotionVectorsSettings_get_defaultSettings_m9B4C37B7A4087408E2FE963575E19F52E75A96B2 (const RuntimeMethod* method) ;
+// UnityEngine.PostProcessing.ChromaticAberrationModel/Settings UnityEngine.PostProcessing.ChromaticAberrationModel/Settings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F Settings_get_defaultSettings_mEA9D96279A0B489EF39814CD6F3820653B0E59DF (const RuntimeMethod* method) ;
+// UnityEngine.PostProcessing.ColorGradingModel/Settings UnityEngine.PostProcessing.ColorGradingModel/Settings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB Settings_get_defaultSettings_mA38DF0D58B721306267EDEDC37EB797B58E045F1 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::set_isDirty(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorGradingModel_set_isDirty_m5583E8C6319AE4A4867C768BBB9496E5A17AF43E_inline (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
 // UnityEngine.Color UnityEngine.Color::get_clear()
@@ -3113,8 +3161,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorWheelsSettings_tB8FD2362CA46C7E97551ACDF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CurvesSettings_tCBFD3A07FCF00DABF41D4ADB11180C98344CA80C CurvesSettings_get_defaultSettings_mF873DC992CF918FC0F7223F31ACACDFA4721ABA2 (const RuntimeMethod* method) ;
 // UnityEngine.PostProcessing.DepthOfFieldModel/Settings UnityEngine.PostProcessing.DepthOfFieldModel/Settings::get_defaultSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tAEF82A6C4067F7A7DF0577242FE9469E03D8379D Settings_get_defaultSettings_m81989398F73914F5ECEE58BA199B83A6A3FA17A6 (const RuntimeMethod* method) ;
-// System.Void UnityEngine.PostProcessing.PostProcessingModel::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostProcessingModel__ctor_m36CB4F260149E7413032B9AE04B44763053955B7 (PostProcessingModel_tBE2F41CB927C52A0AF9B2923D105090662060136* __this, const RuntimeMethod* method) ;
 // UnityEngine.PostProcessing.DitheringModel/Settings UnityEngine.PostProcessing.DitheringModel/Settings::get_defaultSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_t6D4048F675E0ACCC2DBE6C68ACDD22C881839C8D Settings_get_defaultSettings_m1F7A831C42F2685ACDE3DCD13BEEC93031824506 (const RuntimeMethod* method) ;
 // UnityEngine.PostProcessing.EyeAdaptationModel/Settings UnityEngine.PostProcessing.EyeAdaptationModel/Settings::get_defaultSettings()
@@ -3416,8 +3462,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTextureFactory_ReleaseAll_mCD67877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* Event_get_current_mBD7135E10C392EAD61AC0A0D2489EF758C8A3FAD (const RuntimeMethod* method) ;
 // UnityEngine.EventType UnityEngine.Event::get_type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Event_get_type_m8A825D6DA432B967DAA3E22E5C8571620A75F8A8 (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.PostProcessing.BuiltinDebugViewsModel::IsModeActive(UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, int32_t ___mode0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PostProcessing.EyeAdaptationComponent::OnGUI()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeAdaptationComponent_OnGUI_m28DE8964962A73100F6EA7943A68C521F052FCDE (EyeAdaptationComponent_tC3A36012F1001075DCC0D1EAEED96CBC11556C63* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PostProcessing.ColorGradingComponent::OnGUI()
@@ -3773,6 +3817,621 @@ inline void HashSet_1_Clear_m938C880A79D35684381379796EE716529CA1060B (HashSet_1
 }
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: UnityEngine.PostProcessing.BloomModel/LensDirtSettings
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_pinvoke(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___texture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'LensDirtSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_pinvoke_back(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke& marshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled)
+{
+	Exception_t* ___texture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'LensDirtSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.PostProcessing.BloomModel/LensDirtSettings
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_pinvoke_cleanup(LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.PostProcessing.BloomModel/LensDirtSettings
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_com(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com& marshaled)
+{
+	Exception_t* ___texture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'LensDirtSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_com_back(const LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com& marshaled, LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352& unmarshaled)
+{
+	Exception_t* ___texture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'LensDirtSettings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.PostProcessing.BloomModel/LensDirtSettings
+IL2CPP_EXTERN_C void LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshal_com_cleanup(LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352_marshaled_com& marshaled)
+{
+}
+// UnityEngine.PostProcessing.BloomModel/LensDirtSettings UnityEngine.PostProcessing.BloomModel/LensDirtSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352 LensDirtSettings_get_defaultSettings_mE6627CFD4601CEC07A6E19EB983B1658765012EA (const RuntimeMethod* method) 
+{
+	LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new LensDirtSettings
+		// {
+		//     texture = null,
+		//     intensity = 3f
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352));
+		(&V_0)->___texture_0 = (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___texture_0), (void*)(Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL);
+		(&V_0)->___intensity_1 = (3.0f);
+		LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352 L_0 = V_0;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+
+
+
+// Conversion methods for marshalling of: UnityEngine.PostProcessing.BloomModel/Settings
+IL2CPP_EXTERN_C void Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshal_pinvoke(const Settings_tFD4902E5C5F880007369BFF94B935179D5357469& unmarshaled, Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___lensDirt_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'lensDirt' of type 'Settings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___lensDirt_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshal_pinvoke_back(const Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshaled_pinvoke& marshaled, Settings_tFD4902E5C5F880007369BFF94B935179D5357469& unmarshaled)
+{
+	Exception_t* ___lensDirt_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'lensDirt' of type 'Settings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___lensDirt_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.PostProcessing.BloomModel/Settings
+IL2CPP_EXTERN_C void Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshal_pinvoke_cleanup(Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshaled_pinvoke& marshaled)
+{
+}
+
+
+
+
+// Conversion methods for marshalling of: UnityEngine.PostProcessing.BloomModel/Settings
+IL2CPP_EXTERN_C void Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshal_com(const Settings_tFD4902E5C5F880007369BFF94B935179D5357469& unmarshaled, Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshaled_com& marshaled)
+{
+	Exception_t* ___lensDirt_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'lensDirt' of type 'Settings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___lensDirt_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshal_com_back(const Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshaled_com& marshaled, Settings_tFD4902E5C5F880007369BFF94B935179D5357469& unmarshaled)
+{
+	Exception_t* ___lensDirt_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'lensDirt' of type 'Settings'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___lensDirt_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.PostProcessing.BloomModel/Settings
+IL2CPP_EXTERN_C void Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshal_com_cleanup(Settings_tFD4902E5C5F880007369BFF94B935179D5357469_marshaled_com& marshaled)
+{
+}
+// UnityEngine.PostProcessing.BloomModel/Settings UnityEngine.PostProcessing.BloomModel/Settings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tFD4902E5C5F880007369BFF94B935179D5357469 Settings_get_defaultSettings_m74546E5510ED5C994B17733A235397660D751683 (const RuntimeMethod* method) 
+{
+	Settings_tFD4902E5C5F880007369BFF94B935179D5357469 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new Settings
+		// {
+		//     bloom = BloomSettings.defaultSettings,
+		//     lensDirt = LensDirtSettings.defaultSettings
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(Settings_tFD4902E5C5F880007369BFF94B935179D5357469));
+		BloomSettings_t9053322321ED41F96EEE21DB0405DE44D0149565 L_0;
+		L_0 = BloomSettings_get_defaultSettings_mF699CA18C8EE4915A822315A4CD6E4B2238A6250(NULL);
+		(&V_0)->___bloom_0 = L_0;
+		LensDirtSettings_tFB29ACB2F2D853B4C45AC0C20146F4CD7A531352 L_1;
+		L_1 = LensDirtSettings_get_defaultSettings_mE6627CFD4601CEC07A6E19EB983B1658765012EA(NULL);
+		(&V_0)->___lensDirt_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___lensDirt_1))->___texture_0), (void*)NULL);
+		Settings_tFD4902E5C5F880007369BFF94B935179D5357469 L_2 = V_0;
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings UnityEngine.PostProcessing.BuiltinDebugViewsModel::get_settings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 BuiltinDebugViewsModel_get_settings_mBF34C4ABD257C1966E6DB2D1500B5783B68D4550 (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_Settings; }
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 L_0 = __this->___m_Settings_1;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.PostProcessing.BuiltinDebugViewsModel::set_settings(UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuiltinDebugViewsModel_set_settings_mCE85C1766578019B7EFE79454FF90E2DD46204B6 (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_Settings = value; }
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 L_0 = ___value0;
+		__this->___m_Settings_1 = L_0;
+		// set { m_Settings = value; }
+		return;
+	}
+}
+// System.Boolean UnityEngine.PostProcessing.BuiltinDebugViewsModel::get_willInterrupt()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BuiltinDebugViewsModel_get_willInterrupt_mF2AA0A69476718D21F29704E7E34ECB4237ADA82 (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, const RuntimeMethod* method) 
+{
+	{
+		// return !IsModeActive(Mode.None)
+		//        && !IsModeActive(Mode.EyeAdaptation)
+		//        && !IsModeActive(Mode.PreGradingLog)
+		//        && !IsModeActive(Mode.LogLut)
+		//        && !IsModeActive(Mode.UserLut);
+		bool L_0;
+		L_0 = BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A(__this, 0, NULL);
+		if (L_0)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A(__this, 5, NULL);
+		if (L_1)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A(__this, 7, NULL);
+		if (L_2)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		bool L_3;
+		L_3 = BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A(__this, 8, NULL);
+		if (L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		bool L_4;
+		L_4 = BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A(__this, ((int32_t)9), NULL);
+		return (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0030:
+	{
+		return (bool)0;
+	}
+}
+// System.Void UnityEngine.PostProcessing.BuiltinDebugViewsModel::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuiltinDebugViewsModel_Reset_mD1844DA9579BAD4BD2EE47BFB431488532DC58A4 (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, const RuntimeMethod* method) 
+{
+	{
+		// settings = Settings.defaultSettings;
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 L_0;
+		L_0 = Settings_get_defaultSettings_mD853190F5084F5CBC9897591C4FFAEA00B4E7530(NULL);
+		BuiltinDebugViewsModel_set_settings_mCE85C1766578019B7EFE79454FF90E2DD46204B6_inline(__this, L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean UnityEngine.PostProcessing.BuiltinDebugViewsModel::IsModeActive(UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BuiltinDebugViewsModel_IsModeActive_m364842DF9BE1F1BC1F7F2B48DCC2A24843C14F5A (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, int32_t ___mode0, const RuntimeMethod* method) 
+{
+	{
+		// return m_Settings.mode == mode;
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752* L_0 = (&__this->___m_Settings_1);
+		int32_t L_1 = L_0->___mode_0;
+		int32_t L_2 = ___mode0;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+// System.Void UnityEngine.PostProcessing.BuiltinDebugViewsModel::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuiltinDebugViewsModel__ctor_mB54234E1CD0D84E6CB4D30C11D8EE4E458AEB221 (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, const RuntimeMethod* method) 
+{
+	{
+		// Settings m_Settings = Settings.defaultSettings;
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 L_0;
+		L_0 = Settings_get_defaultSettings_mD853190F5084F5CBC9897591C4FFAEA00B4E7530(NULL);
+		__this->___m_Settings_1 = L_0;
+		PostProcessingModel__ctor_m36CB4F260149E7413032B9AE04B44763053955B7(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/DepthSettings UnityEngine.PostProcessing.BuiltinDebugViewsModel/DepthSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DepthSettings_tA25D895ABFCD7C1A3FF2BA72A3CB533C3D289087 DepthSettings_get_defaultSettings_mAB71E11F64F854A72A82A713490ED4CE8431CABB (const RuntimeMethod* method) 
+{
+	DepthSettings_tA25D895ABFCD7C1A3FF2BA72A3CB533C3D289087 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new DepthSettings
+		// {
+		//     scale = 1f
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(DepthSettings_tA25D895ABFCD7C1A3FF2BA72A3CB533C3D289087));
+		(&V_0)->___scale_0 = (1.0f);
+		DepthSettings_tA25D895ABFCD7C1A3FF2BA72A3CB533C3D289087 L_0 = V_0;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/MotionVectorsSettings UnityEngine.PostProcessing.BuiltinDebugViewsModel/MotionVectorsSettings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MotionVectorsSettings_t51256203CEB23749A0835F0C5A8308D858C8488E MotionVectorsSettings_get_defaultSettings_m9B4C37B7A4087408E2FE963575E19F52E75A96B2 (const RuntimeMethod* method) 
+{
+	MotionVectorsSettings_t51256203CEB23749A0835F0C5A8308D858C8488E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new MotionVectorsSettings
+		// {
+		//     sourceOpacity = 1f,
+		// 
+		//     motionImageOpacity = 0f,
+		//     motionImageAmplitude = 16f,
+		// 
+		//     motionVectorsOpacity = 1f,
+		//     motionVectorsResolution = 24,
+		//     motionVectorsAmplitude = 64f
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(MotionVectorsSettings_t51256203CEB23749A0835F0C5A8308D858C8488E));
+		(&V_0)->___sourceOpacity_0 = (1.0f);
+		(&V_0)->___motionImageOpacity_1 = (0.0f);
+		(&V_0)->___motionImageAmplitude_2 = (16.0f);
+		(&V_0)->___motionVectorsOpacity_3 = (1.0f);
+		(&V_0)->___motionVectorsResolution_4 = ((int32_t)24);
+		(&V_0)->___motionVectorsAmplitude_5 = (64.0f);
+		MotionVectorsSettings_t51256203CEB23749A0835F0C5A8308D858C8488E L_0 = V_0;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 Settings_get_defaultSettings_mD853190F5084F5CBC9897591C4FFAEA00B4E7530 (const RuntimeMethod* method) 
+{
+	Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new Settings
+		// {
+		//     mode = Mode.None,
+		//     depth = DepthSettings.defaultSettings,
+		//     motionVectors = MotionVectorsSettings.defaultSettings
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752));
+		(&V_0)->___mode_0 = 0;
+		DepthSettings_tA25D895ABFCD7C1A3FF2BA72A3CB533C3D289087 L_0;
+		L_0 = DepthSettings_get_defaultSettings_mAB71E11F64F854A72A82A713490ED4CE8431CABB(NULL);
+		(&V_0)->___depth_1 = L_0;
+		MotionVectorsSettings_t51256203CEB23749A0835F0C5A8308D858C8488E L_1;
+		L_1 = MotionVectorsSettings_get_defaultSettings_m9B4C37B7A4087408E2FE963575E19F52E75A96B2(NULL);
+		(&V_0)->___motionVectors_2 = L_1;
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 L_2 = V_0;
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.PostProcessing.ChromaticAberrationModel/Settings UnityEngine.PostProcessing.ChromaticAberrationModel::get_settings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F ChromaticAberrationModel_get_settings_m83C5B661090863EA6FEAA833F0075316A571181F (ChromaticAberrationModel_t58E25BC45DBD3F61DD6D0C355DB16FC137AB6363* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_Settings; }
+		Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F L_0 = __this->___m_Settings_1;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ChromaticAberrationModel::set_settings(UnityEngine.PostProcessing.ChromaticAberrationModel/Settings)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChromaticAberrationModel_set_settings_m7223E24C213A54DC2889E15E83B25BB0EB436801 (ChromaticAberrationModel_t58E25BC45DBD3F61DD6D0C355DB16FC137AB6363* __this, Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_Settings = value; }
+		Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F L_0 = ___value0;
+		__this->___m_Settings_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Settings_1))->___spectralTexture_0), (void*)NULL);
+		// set { m_Settings = value; }
+		return;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ChromaticAberrationModel::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChromaticAberrationModel_Reset_m972AA231615F59A07A9E882F2FBA85758A735B24 (ChromaticAberrationModel_t58E25BC45DBD3F61DD6D0C355DB16FC137AB6363* __this, const RuntimeMethod* method) 
+{
+	{
+		// m_Settings = Settings.defaultSettings;
+		Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F L_0;
+		L_0 = Settings_get_defaultSettings_mEA9D96279A0B489EF39814CD6F3820653B0E59DF(NULL);
+		__this->___m_Settings_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Settings_1))->___spectralTexture_0), (void*)NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ChromaticAberrationModel::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChromaticAberrationModel__ctor_mAB4CFA706CE9465B8840771248F14293FD783350 (ChromaticAberrationModel_t58E25BC45DBD3F61DD6D0C355DB16FC137AB6363* __this, const RuntimeMethod* method) 
+{
+	{
+		// Settings m_Settings = Settings.defaultSettings;
+		Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F L_0;
+		L_0 = Settings_get_defaultSettings_mEA9D96279A0B489EF39814CD6F3820653B0E59DF(NULL);
+		__this->___m_Settings_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Settings_1))->___spectralTexture_0), (void*)NULL);
+		PostProcessingModel__ctor_m36CB4F260149E7413032B9AE04B44763053955B7(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: UnityEngine.PostProcessing.ChromaticAberrationModel/Settings
+IL2CPP_EXTERN_C void Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshal_pinvoke(const Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F& unmarshaled, Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___spectralTexture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spectralTexture' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spectralTexture_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshal_pinvoke_back(const Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshaled_pinvoke& marshaled, Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F& unmarshaled)
+{
+	Exception_t* ___spectralTexture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spectralTexture' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spectralTexture_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.PostProcessing.ChromaticAberrationModel/Settings
+IL2CPP_EXTERN_C void Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshal_pinvoke_cleanup(Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.PostProcessing.ChromaticAberrationModel/Settings
+IL2CPP_EXTERN_C void Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshal_com(const Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F& unmarshaled, Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshaled_com& marshaled)
+{
+	Exception_t* ___spectralTexture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spectralTexture' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spectralTexture_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshal_com_back(const Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshaled_com& marshaled, Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F& unmarshaled)
+{
+	Exception_t* ___spectralTexture_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'spectralTexture' of type 'Settings': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___spectralTexture_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.PostProcessing.ChromaticAberrationModel/Settings
+IL2CPP_EXTERN_C void Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshal_com_cleanup(Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F_marshaled_com& marshaled)
+{
+}
+// UnityEngine.PostProcessing.ChromaticAberrationModel/Settings UnityEngine.PostProcessing.ChromaticAberrationModel/Settings::get_defaultSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F Settings_get_defaultSettings_mEA9D96279A0B489EF39814CD6F3820653B0E59DF (const RuntimeMethod* method) 
+{
+	Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new Settings
+		// {
+		//     spectralTexture = null,
+		//     intensity = 0.1f
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F));
+		(&V_0)->___spectralTexture_0 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___spectralTexture_0), (void*)(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL);
+		(&V_0)->___intensity_1 = (0.100000001f);
+		Settings_tB520599F98084B61DFC93CF105856A910A0E1D5F L_0 = V_0;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.PostProcessing.ColorGradingModel/Settings UnityEngine.PostProcessing.ColorGradingModel::get_settings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB ColorGradingModel_get_settings_m961EF54857CEF99A06E83CA05D9D731B2BBC7DE7 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_Settings; }
+		Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB L_0 = __this->___m_Settings_1;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::set_settings(UnityEngine.PostProcessing.ColorGradingModel/Settings)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradingModel_set_settings_mB66BA6C9E3F3D54D4E677C0A6F53140755083C32 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB ___value0, const RuntimeMethod* method) 
+{
+	{
+		// m_Settings = value;
+		Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB L_0 = ___value0;
+		__this->___m_Settings_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___master_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___red_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___green_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___blue_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___hueVShue_4), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___hueVSsat_5), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___satVSsat_6), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___lumVSsat_7), (void*)NULL);
+		#endif
+		// OnValidate();
+		VirtualActionInvoker0::Invoke(5 /* System.Void UnityEngine.PostProcessing.PostProcessingModel::OnValidate() */, __this);
+		// }
+		return;
+	}
+}
+// System.Boolean UnityEngine.PostProcessing.ColorGradingModel::get_isDirty()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColorGradingModel_get_isDirty_mA1FF09CBFB729B7AD51F99E5E43B7D652D8EE568 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool isDirty { get; internal set; }
+		bool L_0 = __this->___U3CisDirtyU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::set_isDirty(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradingModel_set_isDirty_m5583E8C6319AE4A4867C768BBB9496E5A17AF43E (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool isDirty { get; internal set; }
+		bool L_0 = ___value0;
+		__this->___U3CisDirtyU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+// UnityEngine.RenderTexture UnityEngine.PostProcessing.ColorGradingModel::get_bakedLut()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ColorGradingModel_get_bakedLut_m9EDE0E62BD38DBBCB286D96BFB0148812FE2F24D (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, const RuntimeMethod* method) 
+{
+	{
+		// public RenderTexture bakedLut { get; internal set; }
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___U3CbakedLutU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::set_bakedLut(UnityEngine.RenderTexture)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradingModel_set_bakedLut_m71470E248E68A8C791EE4517B1D5A3D8E8085B49 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public RenderTexture bakedLut { get; internal set; }
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___value0;
+		__this->___U3CbakedLutU3Ek__BackingField_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbakedLutU3Ek__BackingField_3), (void*)L_0);
+		return;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradingModel_Reset_m53493C3191B20DCD4C5375BB31ED61A47C131DC7 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, const RuntimeMethod* method) 
+{
+	{
+		// m_Settings = Settings.defaultSettings;
+		Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB L_0;
+		L_0 = Settings_get_defaultSettings_mA38DF0D58B721306267EDEDC37EB797B58E045F1(NULL);
+		__this->___m_Settings_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___master_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___red_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___green_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___blue_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___hueVShue_4), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___hueVSsat_5), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___satVSsat_6), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___lumVSsat_7), (void*)NULL);
+		#endif
+		// OnValidate();
+		VirtualActionInvoker0::Invoke(5 /* System.Void UnityEngine.PostProcessing.PostProcessingModel::OnValidate() */, __this);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::OnValidate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradingModel_OnValidate_m78E11460A40AC9A9A40F2D90E08037DEC3D3A888 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, const RuntimeMethod* method) 
+{
+	{
+		// isDirty = true;
+		ColorGradingModel_set_isDirty_m5583E8C6319AE4A4867C768BBB9496E5A17AF43E_inline(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.PostProcessing.ColorGradingModel::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradingModel__ctor_m327B24487DE8726950134222A199107296AEC990 (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, const RuntimeMethod* method) 
+{
+	{
+		// Settings m_Settings = Settings.defaultSettings;
+		Settings_t563082176199EBEB5C7B1E2554958BD91C88FEDB L_0;
+		L_0 = Settings_get_defaultSettings_mA38DF0D58B721306267EDEDC37EB797B58E045F1(NULL);
+		__this->___m_Settings_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___master_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___red_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___green_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___blue_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___hueVShue_4), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___hueVSsat_5), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___satVSsat_6), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___m_Settings_1))->___curves_4))->___lumVSsat_7), (void*)NULL);
+		#endif
+		PostProcessingModel__ctor_m36CB4F260149E7413032B9AE04B44763053955B7(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -9005,6 +9664,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTextureFactory_Dispose_m6B28EF39CE
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BuiltinDebugViewsModel_set_settings_mCE85C1766578019B7EFE79454FF90E2DD46204B6_inline (BuiltinDebugViewsModel_tE004893C8B8A230C6D42DA4807768E81EB79D3F1* __this, Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 ___value0, const RuntimeMethod* method) 
+{
+	{
+		// set { m_Settings = value; }
+		Settings_tFE10FF1C78DAFF974A8BE02EFF2D5AC295824752 L_0 = ___value0;
+		__this->___m_Settings_1 = L_0;
+		// set { m_Settings = value; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorGradingModel_set_isDirty_m5583E8C6319AE4A4867C768BBB9496E5A17AF43E_inline (ColorGradingModel_tBD7F91CD3A10C2984E137DD2984193C482AF8C69* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool isDirty { get; internal set; }
+		bool L_0 = ___value0;
+		__this->___U3CisDirtyU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{

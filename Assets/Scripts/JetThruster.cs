@@ -24,6 +24,7 @@ public class JetThruster : MonoBehaviour
 
     bool raycastHitting = false;
     RaycastHit raycastHit;
+    GameObject lastHitGameObject;
 
 
     void Start()
@@ -42,6 +43,9 @@ public class JetThruster : MonoBehaviour
 
     void FixedUpdate()
     {
+#if UNITY_EDITOR
+        ShootLaserFromTargetPosition(laserLineRenderer.transform.position, laserLineRenderer.transform.right, laserMaxLength);
+#endif
         if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, controller) || Input.GetKey(KeyCode.W))
         {
             if (!lastPrimaryHandButtonTemp)
@@ -63,12 +67,37 @@ public class JetThruster : MonoBehaviour
             {
                 laserLineRenderer.enabled = true;
             }
-            ShootLaserFromTargetPosition(laserLineRenderer.transform.position + (laserLineRenderer.transform.right * 0.1f), laserLineRenderer.transform.right, laserMaxLength);
+            ShootLaserFromTargetPosition(laserLineRenderer.transform.position, laserLineRenderer.transform.right, laserMaxLength);
+            if (raycastHitting)
+            {
+                if (raycastHit.transform.gameObject != lastHitGameObject)
+                {
+                    raycastHit.transform.gameObject.TryGetComponent(out GameObjectButtonAction act);
+                    act?.onHoverEnterAction?.Invoke();
+                    lastHitGameObject = raycastHit.transform.gameObject;
+                }
+            } else
+            {
+                if (lastHitGameObject)
+                {
+                    lastHitGameObject.TryGetComponent(out GameObjectButtonAction act);
+                    act?.onHoverExitAction?.Invoke();
+                    lastHitGameObject = null;
+                }
+            }
         }
         else
         {
+#if PLATFORM_ANDROID && !UNITY_EDITOR
             laserLineRenderer.enabled = false;
+#endif
             lastPrimaryIndexTouchTemp = false;
+            if (lastHitGameObject)
+            {
+                lastHitGameObject.TryGetComponent(out GameObjectButtonAction act);
+                act?.onHoverExitAction?.Invoke();
+                lastHitGameObject = null;
+            }
         }
 
         if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, controller))
@@ -77,7 +106,7 @@ public class JetThruster : MonoBehaviour
             {
                 lastPrimaryIndexButtonTemp = true;
                 raycastHit.transform.gameObject.TryGetComponent(out GameObjectButtonAction act);
-                act?.action.Invoke();
+                act?.clickAction?.Invoke();
             }
         }
         else
@@ -88,7 +117,7 @@ public class JetThruster : MonoBehaviour
 
     void ShootLaserFromTargetPosition(Vector3 targetPosition, Vector3 direction, float length)
     {
-        Ray ray = new Ray(targetPosition, direction);
+        Ray ray = new (targetPosition, direction);
         Vector3 endPosition = targetPosition + (length * direction);
 
         if (Physics.Raycast(ray, out raycastHit, length))
